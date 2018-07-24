@@ -15,14 +15,14 @@ jekyll theme blog만들기
 
 
 
-
+<br/>
 
   
 
 *블로그 제작방법*   
-<https://dreamgonfly.github.io/2018/01/27/jekyll-remote-theme.html/>  
+*<https://dreamgonfly.github.io/2018/01/27/jekyll-remote-theme/>*  
 
 *마크다운 문법*  
-<https://simhyejin.github.io/2016/06/30/Markdown-syntax/>
+*<https://simhyejin.github.io/2016/06/30/Markdown-syntax/>*
 
 
