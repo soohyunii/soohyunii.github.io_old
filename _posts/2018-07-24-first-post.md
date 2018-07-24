@@ -1,8 +1,3 @@
----
-title: "MY First Blog"
-date: 2018-07-24
-categories: jekyll update
----
 
 ---
 title: Category Archive
