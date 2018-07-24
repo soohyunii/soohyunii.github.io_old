@@ -1,11 +1,9 @@
+---
+title: "MY First Blog"
+date: 2018-07-24
+categories: jekyll update
+---
 
----
-title: Category Archive
-layout: categories
-permalink: /categories/
-show_excerpts: true
-entries_layout: list
----
 
 jekyll theme blog만들기 
 ===
