@@ -1,13 +1,8 @@
 ---
-title: "MY First Blog"
+title: "jekyll theme blog만들기"
 date: 2018-07-24
 categories: jekyll update
 ---
-
-
-jekyll theme blog만들기 
-===
-
 
 
 처음으로 github 블로그를 만들어보았다.
