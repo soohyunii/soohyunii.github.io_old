@@ -1,7 +1,7 @@
 ---
 title: "jekyll theme blog만들기"
 date: 2018-07-24
-categories: jekyll update
+categories: articles
 ---
 
 
