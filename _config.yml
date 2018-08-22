@@ -84,6 +84,7 @@ defaults:
     values:
       layout: post
       share: true
+      comments: true
 
 # Site Author
 author:
