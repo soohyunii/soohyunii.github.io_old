@@ -9,7 +9,7 @@ categories: articles
 ---
 **1. 파이썬에서 필요한 모듈 설치**  
 먼저 파이썬을 실행한 뒤 Counter, Twitter, pytagcloud를 설치해주어야한다. (필자의 경우 IDE는 스파이더(Spyder)를 사용했다)  
-그외에도 필요한 설치파일이 있을 수 있다. 필요한 경우 pip install [설치할 모듈이름]로 설치한다.  
+그외에도 필요한 설치파일이 있을 수 있다. 필요한 경우 **pip install [설치할 모듈이름]**로 설치한다.  
 ```
 from collections import Counter
 from konlpy.tag import Twitter
