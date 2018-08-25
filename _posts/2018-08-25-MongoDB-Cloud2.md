@@ -8,8 +8,9 @@ categories: articles
 
 ---
 **1. 파이썬에서 필요한 모듈 설치**  
-먼저 파이썬을 실행한 뒤 Counter, Twitter, pytagcloud를 설치해주어야한다. (필자의 경우 IDE는 스파이더(Spyder)를 사용했다)  
-그외에도 필요한 설치파일이 있을 수 있다. 필요한 경우 **pip install [설치할 모듈이름]**로 설치한다.  
+먼저 파이썬을 실행한 뒤 Counter, Twitter, pytagcloud를 설치해주어야한다.   
+(필자의 경우 IDE는 스파이더(Spyder)를 사용했다)  
+그외에도 필요한 설치파일이 있을 수 있다. 필요한 경우 **pip install [설치할 모듈이름]** 로 설치한다.  
 ```
 from collections import Counter
 from konlpy.tag import Twitter
@@ -39,9 +40,10 @@ f.close()
 
 이때, 6번째 줄에 있는 fontname='SourceHanSerifk-Medium' 은 직접 다운받은 글씨체로,  
 패키지가 한글을 지원하도록 [글씨체를 다운받고](https://github.com/adobe-fonts/source-han-serif/blob/release/OTF/Korean/SourceHanSerifK-Medium.otf), [font.json파일의 설정도 수정](https://thinkwarelab.wordpress.com/2016/08/30/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%98%95%ED%83%9C%EC%86%8C-%EB%B6%84%EC%84%9D%EC%9C%BC%EB%A1%9C-%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B7%B8%EB%A6%AC%EA%B8%B0/)해주어야 한다.  
-참고로 필자는 C:\Anaconda\Lib\site-packages\pytagcloud\fonts 경로에서 다운받은 폰트(SourceHanSerifk-Medium)를 추가하고,  
+참고로 필자는 C:\Anaconda\Lib\site-packages\pytagcloud\fonts에 다운받은 폰트(SourceHanSerifk-Medium)를 추가하고,  
 아래와 같이 font.json파일에도 폰트를 추가해주었다.  
 ![234234](https://user-images.githubusercontent.com/29648470/44616747-47e8db80-a890-11e8-9062-c5c3fa3f9f42.png)  
+
 ![123123](https://user-images.githubusercontent.com/29648470/44616722-ddd03680-a88f-11e8-84b3-04530729c151.png)  
 
 
