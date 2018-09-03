@@ -40,8 +40,8 @@ f.close()
 ```  
 
 이때, 6번째 줄에 있는 fontname='SourceHanSerifk-Medium' 은 직접 다운받은 글씨체로,  
-패키지가 한글을 지원하도록 **[글씨체를 다운받고]**(https://github.com/adobe-fonts/source-han-serif/blob/release/OTF/Korean/SourceHanSerifK-Medium.otf),  
-**[font.json파일의 설정도 수정]**(https://thinkwarelab.wordpress.com/2016/08/30/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%98%95%ED%83%9C%EC%86%8C-%EB%B6%84%EC%84%9D%EC%9C%BC%EB%A1%9C-%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B7%B8%EB%A6%AC%EA%B8%B0/) 해주어야 한다.  
+패키지가 한글을 지원하도록 [글씨체를 다운받고](https://github.com/adobe-fonts/source-han-serif/blob/release/OTF/Korean/SourceHanSerifK-Medium.otf),  
+[font.json파일의 설정도 수정](https://thinkwarelab.wordpress.com/2016/08/30/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%98%95%ED%83%9C%EC%86%8C-%EB%B6%84%EC%84%9D%EC%9C%BC%EB%A1%9C-%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B7%B8%EB%A6%AC%EA%B8%B0/) 해주어야 한다.  
 참고로 필자는 C:\Anaconda\Lib\site-packages\pytagcloud\fonts에 다운받은 폰트  
 (SourceHanSerifk-Medium)를 추가하고, 아래와 같이 font.json파일에도 폰트를 추가해주었다.  
 ![234234](https://user-images.githubusercontent.com/29648470/44616747-47e8db80-a890-11e8-9062-c5c3fa3f9f42.png)  
@@ -67,6 +67,7 @@ pytagcloud.create_tag_image(taglist, 'wordcloud3.jpg', size=(900, 600), fontname
 f.close()
 ```  
 2. C:\Anaconda\Lib\site-packages\pytagcloud\fonts에 한글 폰트 다운받은 후 같은 경로의 font.json파일에 폰트 추가  
+
 3. testword2.py 실행  
 ![345345](https://user-images.githubusercontent.com/29648470/44616778-2fc58c00-a891-11e8-8519-71677549259c.png)  
 콘솔창에 결과가 뜨면서 설정한 경로에 wordcloud3.jpg 파일이 만들어진다.  
