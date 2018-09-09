@@ -31,8 +31,24 @@ UPDATE문은 data 변수를 사용해 한꺼번에 넘기는대신 일일이 con
 그래서! 아래와 같이 모든 파라미터를 conn.query()문에 직접 넘겨주는 방식으로 짜보니 정상적으로 실행되는 걸 확인할 수 있었다.  
 앞으론 '당연하게' 생각한 부분도 한번쯤 짚고 넘어가보자. 지금처럼 조금은 부끄러운 실수일 수도 있으니  
 
-
-![my04](https://user-images.githubusercontent.com/29648470/45261168-67f2d000-b436-11e8-95e0-de7a51c6ae6c.png)  
+```
+app.post('/modify/success/:id',function(req,res){
+	var id = req.params.id;
+	var password = req.body.password;
+	var centername = req.body.centername;
+	var name = req.body.name;
+	var address = req.body.address;
+	var manager = req.body.manager;
+	var email = req.body.email;
+	var phone = req.body.phone;
+	var sql = 'UPDATE 기관 SET PASSWORD=?,기관명=?,기관이름=?,주소=?,기관담당자=?,이메일=?,핸드폰번호=? WHERE 기관ID = '+mysql.escape(req.params.id);
+	conn.query(sql,[password,centername,name,address,manager,email,phone,id],function(err,rows){
+		if(err) console.log("err : "+err);
+		console.log(rows);
+		res.render('success_center',{rows:rows});
+	});
+});
+```  
 
 ![my05](https://user-images.githubusercontent.com/29648470/45261170-7e009080-b436-11e8-9ced-7ae3c9e34431.png)  
 
