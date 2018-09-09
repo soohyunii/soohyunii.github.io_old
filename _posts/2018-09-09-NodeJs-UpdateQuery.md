@@ -28,8 +28,10 @@ UPDATE문은 data 변수를 사용해 한꺼번에 넘기는대신 일일이 con
 ![my03](https://user-images.githubusercontent.com/29648470/45261079-dbdfa900-b433-11e8-8a0b-02a9db48e42d.png)  
 (출처 : <https://github.com/mysqljs/mysql/issues/1831> )  
 
-그래서! 아래와 같이 모든 파라미터를 conn.query()문에 직접 넘겨주는 방식으로 짜보니 정상적으로 실행되는 걸 확인할 수 있었다.  
-앞으론 '당연하게' 생각한 부분도 한번쯤 짚고 넘어가보자. 지금처럼 조금은 부끄러운 실수일 수도 있으니  
+그래서! 아래와 같이 모든 파라미터를 conn.query()문에 직접 넘겨주는 방식으로 짜보니   
+정상적으로 실행되는 걸 확인할 수 있었다.  
+앞으론 '당연하게' 생각한 부분도 한번쯤 짚고 넘어가보자.  
+지금처럼 조금은 부끄러운 실수일 수도 있으니  
 
 ```
 app.post('/modify/success/:id',function(req,res){
