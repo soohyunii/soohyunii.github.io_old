@@ -20,7 +20,7 @@ title: false
 description: false
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://soohyunii.github.io" # the base hostname & protocol for your site e.g. 
-logo: "/_images/logo.png" # path of site logo, e.g. 
+logo: "/_images/logo.jpg" # path of site logo, e.g. 
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
