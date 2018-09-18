@@ -1,7 +1,7 @@
 ---
 title: "Oracle SQL에서 tablespace 확인하기"
 date: 2018-09-17
-categories: articles
+categories: SQL
 ---
 
 ORACLE을 사용하다보면 다음과 같은 에러가 생기는 경우가 있다.  
