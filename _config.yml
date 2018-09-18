@@ -29,7 +29,7 @@ google_fonts:
   - name: "Roboto"
     weights: "400,400i,700,700i"
   - name: "Roboto"
-    weights: "400,400i,700,700i"
+    weights: "800,800i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: https-soohyunii-github-io
