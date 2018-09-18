@@ -20,7 +20,7 @@ title: "Welcome to My Awesome Site"
 description: "by sofia Kim"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://soohyunii.github.io" # the base hostname & protocol for your site e.g. 
-logo: "/images/logo.png" # path of site logo, e.g. 
+logo: "/_images/logo.png" # path of site logo, e.g. 
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -28,7 +28,7 @@ mathjax: # MathJax equations, e.g. true
 google_fonts:
   - name: "Roboto"
     weights: "400,400i,700,700i"
-  - name: "Lato"
+  - name: "Roboto"
     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
