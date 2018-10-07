@@ -39,7 +39,7 @@ categories: Linux
 * **etc**  
   * 리눅스에서 숨겨진 파일은 파일명 앞에 '.'이 붙는다. ex) .IamGroot
   
-
+<br/>
 
   
 
