@@ -18,7 +18,7 @@ categories: Linux
 
 * **쉘 스크립트(Shell Script)**  
   * 쉘에서 순차적으로 실행되어야 하는 명령어들을 저장하는 곳 
-  * chmod +x backup : 'backup'이라는 파일을 실행하도록 권한을 줌
+  * chmod +x backup : 'backup'이라는 파일을 실행하도록 권한을 줌  
 <br/>    
 
 * **디렉토리의 구조**  
