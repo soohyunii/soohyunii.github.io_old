@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "[생활코딩] 리눅스 복습 및 정리_04"
 date: 2018-10-25
 categories: Linux
