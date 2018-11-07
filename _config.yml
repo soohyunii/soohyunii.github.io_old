@@ -4,7 +4,6 @@ description:       A Blog Theme by Start Bootstrap
 author:            Start Bootstrap
 baseurl:           "/startbootstrap-clean-blog-jekyll"
 url:               "https://soohyunii.github.io/"
-theme:             jekyll-theme-awesome
 
 # Social Profiles
 twitter_username:  SBootstrap
