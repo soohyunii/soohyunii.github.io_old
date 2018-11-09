@@ -2,7 +2,6 @@
 layout: post
 title: "[생활코딩] 리눅스 복습 및 정리_05"
 date: 2018-11-07
-categories: Linux
 ---  
 <br/>
 
