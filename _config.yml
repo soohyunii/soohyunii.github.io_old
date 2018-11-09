@@ -2,7 +2,7 @@ title:             Soohyun's Clean Blog
 email:             happykimoob@gmail.com
 description:       A Blog Theme by Start Bootstrap
 author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
+baseurl:           ""
 url:               "https://soohyunii.github.io/"
 
 # Social Profiles
@@ -10,7 +10,8 @@ twitter_username:  SBootstrap
 github_username:   soohyunii
 facebook_username: StartBootstrap
 
-# Build settings
+# Build setting
+remote_theme : BlackrockDigital/startbootstrap-clean-blog-jekyll
 markdown:          kramdown
 paginate:          5
 paginate_path:     "/posts/page:num/"
