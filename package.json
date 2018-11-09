@@ -26,14 +26,16 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll.git"
     },
     "dependencies": {
-        "bootstrap": "4.1.1",
+        "bootstrap": "^4.1.2",
+        "cryptiles": "^4.1.2",
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
+        "lodash": "^4.17.5",
         "popper.js": "1.14.3",
         "startbootstrap-clean-blog": "4.1.1"
     },
     "devDependencies": {
-        "browser-sync": "2.24.5",
+        "browser-sync": "^2.26.3",
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.4",
         "gulp-header": "2.0.5",
