@@ -19,5 +19,16 @@ date: 2018-11-19
 <br/>
 
 * **포트 (port)**  
-  * 포트란 무엇인가? : 
+  * 포트 포워딩 : 공유기를 사용하는 특정 기기에 접속하기 위한 포트를 알고, 이에 따라 접속하면 공유기는 할당된 포트 번호대로 내부 IP에 연결해주는 행위 (참고자료 : [http://awesometic.tistory.com/55](http://awesometic.tistory.com/55))  
+  * default gateway    
+  * default gateway를 알아내기 위한 명령어 : ip route  
+  * 내부 IP를 알아내기 위한 명령어 : ip addr  
+  * 현재 사용하고 있는 공유기의 IP (public ip)를 알아내는 방법 : [https://ipinfo.io/ip](https://ipinfo.io/ip) 에 접속  
+<br/>
+
+* **도메인 (domain)**  
+ * host파일 : 운영체제가 호스트 이름을 IP주소에 매핑할 때 사용하는 컴퓨터 파일  
+ * DNS 서버 : 사용자가 입력한 도메인 이름을 IP주소로 변환해주는 시스템이자 라우팅 정보를 제공하는 분산형 데이터베이스 시스템 (DNS 서버 >> host 파일) 
+ * 서브 도메인 : 본진 도메인에서 파생된 여러 부속 도메인. 서브 도메인이 있어 모든 서버마다 1:1로 도메인을 구입하지 않아도 된다  
+ * DNS의 동작 원리
   
