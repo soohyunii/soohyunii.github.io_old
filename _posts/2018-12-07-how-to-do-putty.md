@@ -11,7 +11,7 @@ date: 2018-12-07
 <br/>
 
 어느날 회사에서 구글 드라이버로 **ppk파일**과 **아마존 ubuntu 서버 IP**를 공유받았다.  
-그래서, 이게 뭐에 쓰이는거라고?  
+그래서, 이게 뭐에 쓰이는거라고? 공유받은 이 파일들은 외부 서버에 접속해서 필요한 정보를 조회해야 할 때 주로 사용한다.   
 <br/>
 ![git1](https://user-images.githubusercontent.com/29648470/49653503-7de55080-fa78-11e8-87d8-40aaa36f6768.png)  
 ![git2](https://user-images.githubusercontent.com/29648470/49653535-97869800-fa78-11e8-9dff-c8ff966e3a2a.png)  
@@ -43,7 +43,8 @@ date: 2018-12-07
 <h2>4.ppk파일 선택 후 열기</h2>
   'Browse..'버튼을 누르고 아까 전 바탕화면에 다운받아 둔 ppk파일을 선택한 후 '열기'를 누르면 끝난다.  
   
-  ![git6](https://user-images.githubusercontent.com/29648470/49654718-f3065500-fa7b-11e8-94ca-d6da9130f171.png)    
+  ![putty01](https://user-images.githubusercontent.com/29648470/50200678-40e35d00-039a-11e9-8c03-77b123ee6b98.png)
+  
   ![git7](https://user-images.githubusercontent.com/29648470/49654746-04e7f800-fa7c-11e8-86ba-cebe8f61daa4.png) 
   
   <br/>
