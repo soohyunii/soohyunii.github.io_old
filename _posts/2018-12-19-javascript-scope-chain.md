@@ -5,7 +5,7 @@ date: 2018-12-19
 ---  
 <br/>
 
-요즘 ['인사이드 자바스크립트'(송형주, 고현준 저)](http://www.hanbit.co.kr/store/books/look.php?p_code=B6479856408)라는 책으로 javascript에 대해 공부하고 있다. 
+요즘 ['인사이드 자바스크립트'](http://www.hanbit.co.kr/store/books/look.php?p_code=B6479856408)라는 책으로 javascript에 대해 공부하고 있다. 
 내용 복습 겸 스코프 체인(scope chain)에 대해 공부한 내용을 적어둔다. 
 <br/>
 
@@ -44,6 +44,13 @@ date: 2018-12-19
 정의한 var value="value2"가 된다.
 <br/><p>
 
+**출처** 
+<br/>
+도서 : 인사이드 자바스크립트 (송형주, 고현준 지음 / 한빛미디어)
+<br/>
+스코프 체인 설명 이미지 : [http://juheejin.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8A%A4%ED%84%B0%EB%94%945-%EC%8B%A4%ED%96%89%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%99%80-%ED%81%B4%EB%A1%9C%EC%A0%80](http://juheejin.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8A%A4%ED%84%B0%EB%94%945-%EC%8B%A4%ED%96%89%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%99%80-%ED%81%B4%EB%A1%9C%EC%A0%80)
+<br/>
+네이버 사전 : [https://endic.naver.com/search.nhn?sLn=kr&dicQuery=scope&x=0&y=0&query=scope&target=endic&ie=utf8&query_utf=&isOnlyViewEE=N](https://endic.naver.com/search.nhn?sLn=kr&dicQuery=scope&x=0&y=0&query=scope&target=endic&ie=utf8&query_utf=&isOnlyViewEE=N)
 
 
 
