@@ -31,22 +31,26 @@ date: 2018-12-19
 **각각의 함수는 [[scope]] 프로퍼티로 자신이 생성된 실행 컨텍스트의 스코프 체인(scope chain)을 참조한다.**
 결국, 요약하면 **스코프 체인 = 현재 실행 컨텍스트의 변수 객체 + 상위 컨텍스트의 스코프 체인** 이라고 할 수 있다.
 
-<br/><hr/>
-
+<br/>
 이해를 돕기 위해 예제를 들어보도록 하자. 
 <br/>
+
 ![3](https://user-images.githubusercontent.com/29648470/50195401-3d43dc00-0382-11e9-80c8-5a700bf9fbd5.PNG)
 <br/>
+
 위의 코드를 실행하면 다음과 같이 나온다. 
 <br/>
+
 ![4](https://user-images.githubusercontent.com/29648470/50195443-65333f80-0382-11e9-88ec-c7844c085942.PNG)
 <br/>
+
 ![5](https://user-images.githubusercontent.com/29648470/50195520-c8bd6d00-0382-11e9-9284-555dd9d5316d.PNG)
 <br/>
 
 위의 그림처럼 value변수를 **2: printValue변수 객체**에서 먼저 탐색하고, 없으면 **1: printFunc변수 객체**에서 찾으므로 결과값은 printFunc()함수에서 
 정의한 var value="value2"가 된다.
-<br/>
+<br/><br/>
+<hr/>
 
 **출처** 
 <br/>
@@ -55,6 +59,7 @@ date: 2018-12-19
 스코프 체인 설명 이미지 : [http://juheejin.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8A%A4%ED%84%B0%EB%94%945-%EC%8B%A4%ED%96%89%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%99%80-%ED%81%B4%EB%A1%9C%EC%A0%80](http://juheejin.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8A%A4%ED%84%B0%EB%94%945-%EC%8B%A4%ED%96%89%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%99%80-%ED%81%B4%EB%A1%9C%EC%A0%80)
 <br/>
 네이버 사전 : [https://endic.naver.com/search.nhn?sLn=kr&dicQuery=scope&x=0&y=0&query=scope&target=endic&ie=utf8&query_utf=&isOnlyViewEE=N](https://endic.naver.com/search.nhn?sLn=kr&dicQuery=scope&x=0&y=0&query=scope&target=endic&ie=utf8&query_utf=&isOnlyViewEE=N)
+<br/>
 
 
 
