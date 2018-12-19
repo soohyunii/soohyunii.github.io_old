@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "자바스크립트 scope chain"
+title: "자바스크립트 스코프체인(scope chain)"
 date: 2018-12-19
 ---  
 <br/>
