@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "[Vue.js] 반응형 - 변경 감지 경고"
 date: 2019-01-25
 ---  
