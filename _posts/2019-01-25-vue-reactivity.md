@@ -41,6 +41,8 @@ Vue.js를 사용해서 개발하던 중 문제가 발생했다.
 <strong>출처</strong><br/>
 
 * Vue.js 공식 홈페이지 - 반응형에 대해 깊이 알아보기 : [https://kr.vuejs.org/v2/guide/reactivity.html](https://kr.vuejs.org/v2/guide/reactivity.html)
+<br/>
+
 
 
 
