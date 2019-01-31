@@ -17,10 +17,12 @@ date: 2019-01-31
 <br/>
 
 * **Prototype Chain** : ```_proto_```를 통해 상위 프로토타입과 연결되어 있는 성질이다
-<br/><br/><hr/>
+<br/><br/>
+<hr/>
 
 <strong>출처</strong>
 * 인사이드 자바스크립트: [http://www.hanbit.co.kr/store/books/look.php?p_code=B6479856408](http://www.hanbit.co.kr/store/books/look.php?p_code=B6479856408)
+<br/><br/>
 
   
 
