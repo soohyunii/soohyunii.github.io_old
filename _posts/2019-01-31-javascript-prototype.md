@@ -20,7 +20,7 @@ date: 2019-01-31
 <br/><br/>
 <hr/>
 
-<strong>출처</strong>
+<strong>출처</strong><br/>
 * 인사이드 자바스크립트: [http://www.hanbit.co.kr/store/books/look.php?p_code=B6479856408](http://www.hanbit.co.kr/store/books/look.php?p_code=B6479856408)
 <br/><br/>
 
