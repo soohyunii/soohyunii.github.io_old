@@ -327,4 +327,8 @@ template {
 [hidden] {
   display: none !important;
 }
+
+highlight {
+  background-color:#6c757d;
+}
 /*# sourceMappingURL=bootstrap-reboot.css.map */
