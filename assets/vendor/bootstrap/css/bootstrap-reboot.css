@@ -328,7 +328,7 @@ template {
   display: none !important;
 }
 
-highlight {
+.highlighter-rouge {
   background-color:#6c757d;
 }
 /*# sourceMappingURL=bootstrap-reboot.css.map */
