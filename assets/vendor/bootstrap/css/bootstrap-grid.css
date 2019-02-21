@@ -28,9 +28,11 @@ html {
   background-color:##007bff;
 }
 
-@media (min-width: 1600px) {
+/*@media (min-width: 1600px) {*/
+@media (width: 1600px) {
   .container {
-    max-width: 1600px;
+    /*max-width: 1600px;*/
+    width: 1600px;
   }
 }
 
