@@ -554,25 +554,25 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1600px) {
   .container {
-    max-width: 540px;
+    max-width: 1600px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .container {
-    max-width: 720px;
+    max-width: 1600px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1600px) {
   .container {
-    max-width: 960px;
+    max-width: 1600px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
   .container {
     max-width: 1600px;
   }
