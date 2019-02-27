@@ -84,13 +84,10 @@ martix(
 > ④ A<-tm_map(A, tolower) 
 <br/>
 
-tm_map(corp, PlainTextDocument) : corpus 형태의 단어를 일반문서로 변경 
-  
-tm_map(corp, removeWords, stopwords("english")) : 불용어 제거. 즉 단어의 띄어쓰기, 시제를 표준화한다. 
-  
-tm_map(corp, stripWhitespace) : 여러 개의 공백을 하나의 공백을 하나의 공백으로 변환 
-  
-tm_map(corp, tolower) : 대문자가 있을 경우 소문자로 변환 
+* tm_map(corp, PlainTextDocument) : corpus 형태의 단어를 일반문서로 변경 
+* tm_map(corp, removeWords, stopwords("english")) : 불용어 제거. 즉 단어의 띄어쓰기, 시제를 표준화한다. 
+* tm_map(corp, stripWhitespace) : 여러 개의 공백을 하나의 공백을 하나의 공백으로 변환 
+* tm_map(corp, tolower) : 대문자가 있을 경우 소문자로 변환 
 <br/><br/>
 
 <hr/>
