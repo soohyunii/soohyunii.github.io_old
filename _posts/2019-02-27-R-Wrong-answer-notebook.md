@@ -56,6 +56,25 @@ martix(
 변수가 많을 경우 활용이 어렵고 안정성이 부족하다는 단점이 있다. 
 <br/><br/><hr/>
 
+**Q. 텍스트마이닝 패키지인 TM에서 영어 문서 A에 포함된 단어의 띄어쓰기와 시제를 모두 표준화하기 위해 사용하는 R프로그래밍으로 적합한 것은 무엇인가?**
+> ① A<-tm_map(A, as.PlainTextDocument) <p>
+> **② A<-tm_map(A, removeWords, stopwords("english"))** <p>
+> ③ A<-tm_map(A, stripWhitespace) <p>
+> ④ A<-tm_map(A, tolower) <p>  
+<br/>
+
+tm_map(corp, PlainTextDocument) : corpus 형태의 단어를 일반문서로 변경 <p>
+tm_map(corp, removeWords, stopwords("english")) : 불용어 제거. 즉 단어의 띄어쓰기, 시제를 표준화한다. <p>
+tm_map(corp, stripWhitespace) : 여러 개의 공백을 하나의 공백을 하나의 공백으로 변환 <p>
+tm_map(corp, tolower) : 대문자가 있을 경우 소문자로 변환 <p>
+<br/><br/><hr/>
+
+
+<strong>출처</strong>
+
+* R을 이용한 데이터 처리&실무 : [https://www.gilbut.co.kr/book/view?bookcode=BN001023](https://www.gilbut.co.kr/book/view?bookcode=BN001023)
+<br/><br/>
+
 
 
 
